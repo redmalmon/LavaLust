@@ -156,6 +156,7 @@ class Database {
     {
         $this->table = NULL;
         $this->columns = NULL;
+        $this->join = NULL;
         $this->sql = NULL;
         $this->bindValues = NULL;
         $this->limit = NULL;
